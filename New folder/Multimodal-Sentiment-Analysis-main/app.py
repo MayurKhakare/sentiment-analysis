@@ -149,7 +149,7 @@ class VideoTransformer(VideoTransformerBase):
 
 # Streamlit app
 def main():
-    st.title("Sentiment Analysis App with Text, Image, Audio, and Video")
+    st.title("Sentiment Analysis App with Text, Image, Audio, ")
 
     # Sidebar for choosing analysis type
     analysis_type = st.sidebar.selectbox("Choose Analysis Type", ["Text Analysis", "Image Analysis", "Audio Analysis", "Video Analysis"])
